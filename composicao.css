@@ -1,6 +1,5 @@
 body {
-    font-family: Georgia, serif;
-    font-size: 20px;
+    font: 20px Georgia, serif;
 }
 
 h1, h2 {
@@ -11,36 +10,26 @@ p {
     line-height: 1.5em;
 }
 
-div { 
-    base {
-    background-color: #eeeeee;  
-}
-}
-
-section.bloco1 {
-    background-color: orange;
-}
-
-section.bloco2 {
-    background-color: green;
-}
-
-section.bloco3 {
-    background-color: red;
-}
-
 div.base {
+    background-color: #eeeeee;
     width: 960px;
     margin: 0 auto;
 }
 
 section.bloco1 {
+    background-color: orange;
     width: 200px;
-}
-section.bloco1 {
     float: left;
 }
 
 section.bloco2 {
-    margin-left: 200px;
+    background-color: green;
+    margin-left: 0;
+    width: 500px;
+    float: left;
+}
+
+section.bloco3 {
+    background-color: red;
+    margin-left: 700px;
 }
