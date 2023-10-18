@@ -29,3 +29,18 @@ section.bloco3 {
     background-color: red;
 }
 
+div.base {
+    width: 960px;
+    margin: 0 auto;
+}
+
+section.bloco1 {
+    width: 200px;
+}
+section.bloco1 {
+    float: left;
+}
+
+section.bloco2 {
+    margin-left: 200px;
+}
