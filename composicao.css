@@ -24,7 +24,7 @@ section.bloco1 {
 
 section.bloco2 {
     background-color: green;
-    margin-left: 0;
+    margin-left: 200px;
     width: 500px;
     float: left;
 }
